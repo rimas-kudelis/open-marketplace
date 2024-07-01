@@ -8,10 +8,10 @@
                     {% if sylius_bundle_loaded_checker('SyliusShopBundle') %}
                         {% set url = channel.hostname is not null ? 'http://' ~ channel.hostname ~ path('sylius_shop_homepage', {'_locale': localeCode}) : url('sylius_shop_homepage', {'_locale': localeCode}) %}
                         <a href="{{ url|raw }}">
-                            <img src="{{ logo }}" alt="OpenMarketplace" style="width: 320px">
+                            <img src="{{ logo }}" alt="Open Marketplace" style="width: 320px">
                         </a>
                     {% else %}
-                        <img src="{{ logo }}" alt="OpenMarketplace" style="width: 320px">
+                        <img src="{{ logo }}" alt="Open Marketplace" style="width: 320px">
                     {% endif %}
                 </div>
 
@@ -20,7 +20,7 @@
                 </div>
 
                 <div style="text-align: center; padding: 20px 0;">
-                    <a href="https://open-marketplace.io/" target="_blank" style="color: #1abb9c; text-decoration: none;">OpenMarketplace</a>
+                    <a href="https://open-marketplace.io/" target="_blank" style="color: #1abb9c; text-decoration: none;">Open Marketplace</a>
                 </div>
             </div>
         </div>
